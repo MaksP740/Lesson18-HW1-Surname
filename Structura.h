@@ -1,0 +1,21 @@
+#pragma once
+#include <iostream>
+using namespace std;
+#include "DateMac.h"
+
+struct workman {
+    char nickname[100];
+    Date yearOfbirth;
+    char position[100];
+    double money;
+    char education;
+
+
+    void infoWork() {
+        cout << "Прізвище: " << nickname << endl;
+        cout << "Рік народження: " << yearOfbirth.toString("%d.%m.%Y") << endl;
+        cout << "Посада: " << position << endl;
+        cout << "Заробітня платня: " << money << endl;
+        cout << "Освіта: " << education << endl;
+    }
+};

@@ -4,4 +4,6 @@ project(Lesson18_HW1_Surname)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Lesson18_HW1_Surname main.cpp
-        Structura.h)
+        Structura.h
+        ArrayTemplate.h
+        function.h)

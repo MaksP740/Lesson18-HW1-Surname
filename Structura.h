@@ -1,14 +1,13 @@
 #pragma once
-#include <iostream>
-using namespace std;
-#include "DateMac.h"
+
+
 
 struct workman {
     char nickname[100];
     Date yearOfbirth;
     char position[100];
     double money;
-    char education;
+    char education[100];
 
 
     void infoWork() {

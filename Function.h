@@ -7,11 +7,10 @@ void seniorEmployees(workman* arr, int size_arr) {
 
     int res = 0;
 
+    Date now;
+    now.getNowDate();
+
     for (int i = 0; i < size_arr; i++) {
-
-        Date now;
-        now.getNowDate();
-
         int Age = now.year - arr[i].yearOfbirth.year;
 
         if (Age > 60) {

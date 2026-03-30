@@ -18,5 +18,6 @@ int main() {
     seniorEmployees(infoMan, size_arr);
 
 
+    delete[] infoMan;
     return 0;
 }
